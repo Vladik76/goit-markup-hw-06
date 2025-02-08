@@ -1,22 +1,28 @@
 body{
-    font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #434455;
+    background-color: #ffffff;
 
 }
-h1{
+.header1{
     font-weight: 700;
     font-size: 56px;
     color: #ffffff;
     line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
-h2{
+.header2{
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
-h3{
+.header3{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -24,7 +30,7 @@ h3{
 ul{
   list-style-type: none;  
 }
-a{
+.link{
     text-decoration: none;
     color: inherit;
 }
@@ -33,24 +39,31 @@ nav{
     line-height: 150%;
 
 }
-address{
+.address{
     line-height: 150%;
     color: #434455;
     font-style: normal;
 }
-footer{
+.footer{
     background-color: #2e2f42;
 }
-button{
-    font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
+.button{
+    font-family: 'Roboto', sans-serif;
     background-color: #4d5ae5;
     font-weight: 500;
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #ffffff;
+    cursor: pointer;
 
 }
-p{
+.button:hover{
+    background-color: #404BBF;
+}
+.button:focus{
+    background-color: #404BBF;
+}
+.text{
     line-height: 150%;
     color: #434455;
 }
@@ -64,10 +77,10 @@ footer p{
     line-height: 117%;
     letter-spacing: 0.03em;
     font-size: 18px;
-
+    color: #4d5ae5;
 }
 .logo-altcolor{
-    color: #4d5ae5;;
+    color: #2e2f42
 }
 .logo-footer-altcolor{
     color: #f4f4fd;
