@@ -38,10 +38,10 @@ ul{
     text-decoration: none;
     color: #434455;
 }
-.link:hover{
+.link-address:hover{
     color: #404bbf;
 }
-.link:focus{
+.link-address:focus{
     color: #404bbf;
 }
 nav{
@@ -76,9 +76,12 @@ nav{
 .text{
     line-height: 150%;
     color: #434455;
+    line-height: 1.5;
 }
-footer p{
-    color:#f4f4fd;
+.footer-text{
+    line-height: 150%;
+    color: #F4F4FD;
+    line-height: 1.5;
 }
 .logo{
     text-transform: uppercase;
