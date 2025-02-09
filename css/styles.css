@@ -6,7 +6,7 @@ body{
     background-color: #ffffff;
 
 }
-.header1{
+.header-first{
     font-weight: 700;
     font-size: 56px;
     color: #ffffff;
@@ -15,17 +15,21 @@ body{
     text-align: center;
     text-transform: capitalize;
 }
-.header2{
+.header-second{
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
-.header3{
+.header-third{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 ul{
   list-style-type: none;  
@@ -33,6 +37,12 @@ ul{
 .link{
     text-decoration: none;
     color: #2e2f42;
+}
+.link:hover{
+    color: #404bbf;
+}
+.link:focus{
+    color: #404bbf;
 }
 .link-address{
     text-decoration: none;
