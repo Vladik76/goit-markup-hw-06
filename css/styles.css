@@ -260,7 +260,6 @@ nav {
 /*portfolio*/
 .portfolio-container{
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
 }
 .portfilio-header{
     margin-bottom: 72px;
@@ -280,9 +279,8 @@ nav {
     margin-bottom: 8px;
 }
 .portfolio-list-item-content{
-    padding-top: 32px;
-    padding-left: 16px;
-    padding-bottom: 32px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 /*footer*/
 .footer{
